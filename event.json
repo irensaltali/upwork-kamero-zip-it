@@ -1,0 +1,38 @@
+{
+    "Records": [
+        {
+            "eventVersion": "2.1",
+            "eventSource": "aws:s3",
+            "awsRegion": "eu-central-1",
+            "eventTime": "2021-03-28T11:21:43.562Z",
+            "eventName": "ObjectCreated:Copy",
+            "userIdentity": {
+                "principalId": "A2H82DWUCS0FHN"
+            },
+            "requestParameters": {
+                "sourceIPAddress": "176.88.30.131"
+            },
+            "responseElements": {
+                "x-amz-request-id": "56CZC00GCA6DRV6Z",
+                "x-amz-id-2": "uWB3kdEVhmuOLahBwMIxFeJGLY93aI35GiOyWkwuoSZzPjIdk21iSco1Vaw7SWlTsgX2MfRf45fRdZZ/Ut7tpepbb7c7E3Ww"
+            },
+            "s3": {
+                "s3SchemaVersion": "1.0",
+                "configurationId": "sub",
+                "bucket": {
+                    "name": "kamero-dataset-very-small",
+                    "ownerIdentity": {
+                        "principalId": "A2H82DWUCS0FHN"
+                    },
+                    "arn": "arn:aws:s3:::kamero-dataset-very-small"
+                },
+                "object": {
+                    "key": "id123/zip/subscriptions.json",
+                    "size": 89,
+                    "eTag": "3412b908f3687da3021b4d30787663d3",
+                    "sequencer": "00606066CA08415CA4"
+                }
+            }
+        }
+    ]
+}
